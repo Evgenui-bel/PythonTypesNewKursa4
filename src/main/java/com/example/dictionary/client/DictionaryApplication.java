@@ -17,7 +17,7 @@ public class DictionaryApplication extends Application {
         Scene scene = new Scene(pane);
         stage.setScene(scene);
         stage.setResizable(false);
-        stage.setTitle("OSI Model dictionary");
+        stage.setTitle("Python types");
         stage.show();
     }
 

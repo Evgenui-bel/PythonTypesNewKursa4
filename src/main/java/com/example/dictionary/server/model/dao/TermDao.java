@@ -14,10 +14,10 @@ public class TermDao {
     /**
      * SQL-запрос на получения всех терминов из базы данных.
      */
-    private static final String SELECT_ALL = "SELECT * FROM terms;";
-    private static final String SELECT_BY_NAME = "SELECT * FROM terms WHERE name LIKE ?;";
-    private static final String SORT_BY_NAME_ASCENDING = "SELECT * FROM terms ORDER BY name;";
-    private static final String SORT_BY_NAME_DESCENDING = "SELECT * FROM terms ORDER BY name DESC;";
+    private static final String SELECT_ALL = "SELECT * FROM types;";
+    private static final String SELECT_BY_NAME = "SELECT * FROM types WHERE name LIKE ?;";
+    private static final String SORT_BY_NAME_ASCENDING = "SELECT * FROM types ORDER BY name;";
+    private static final String SORT_BY_NAME_DESCENDING = "SELECT * FROM types ORDER BY name DESC;";
 
     private final JdbcTemplate<Term> jdbcTemplate;
 

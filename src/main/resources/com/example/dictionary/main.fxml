@@ -23,7 +23,7 @@
             <children>
                 <VBox maxWidth="-Infinity" prefWidth="700.0">
                     <children>
-                        <Label maxWidth="-Infinity" onMouseClicked="#loadTerms" text="OSI Model Dictionary ">
+                        <Label maxWidth="-Infinity" onMouseClicked="#loadTerms" text="Python types ">
                             <font>
                                 <Font size="24.0"/>
                             </font>
