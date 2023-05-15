@@ -1,0 +1,152 @@
+.header {
+    -fx-background-color: #99E1D9;
+    -fx-border-color: rgba(0, 0, 0, 0.15);
+    -fx-border-width: 0 0 0.5 0;
+}
+
+.header .label {
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+    -fx-padding: 10px 5px 10px 5px;
+    -fx-background-radius: 15px;
+}
+
+.header .label:hover {
+    -fx-background-color: rgba(232, 232, 232, 0.3);
+}
+
+.search-bar {
+    -fx-padding: 5px;
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+}
+
+.search-input {
+    -fx-background-color: white;
+
+}
+
+.search-button {
+    -fx-background-color: white;
+}
+
+.search-button:hover {
+    -fx-cursor: hand;
+    -fx-background-radius: 50%;
+    -fx-background-color: #e8e8e8;
+}
+
+/**
+    COMBO_BOX
+ */
+.menu-button {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 15px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.menu-button:hover {
+    -fx-color: -fx-hover-base;
+    -fx-cursor: hand;
+}
+
+.menu-item {
+    -fx-background-radius: 5px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #dedede;
+    -fx-cursor: hand;
+}
+
+.context-menu {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+}
+
+.border-pane {
+    -fx-border-color: none;
+}
+
+.term-card {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 15px;
+}
+
+.term-card .term-label {
+    -fx-padding: 10px 20px 5px 20px;
+    -fx-font-size: 18px;
+    -fx-background-color: #99E1D9;
+    -fx-background-radius: 15px 15px 0 0;
+}
+
+.term-card .term-header {
+    -fx-padding: 0 20px 0 0;
+    -fx-background-color: #99E1D9;
+    -fx-background-radius: 15px 15px 0 0;
+}
+
+.term-card .information {
+    -fx-padding: 20px;
+    -fx-font-size: 16px;
+}
+
+.message {
+    -fx-font-size: 24px;
+}
+
+.save-button {
+    -fx-padding: 10px;
+    -fx-background-color: none;
+    -fx-cursor: hand;
+}
+
+.save-button:hover {
+    -fx-background-radius: 50%;
+    -fx-background-color: rgba(232, 232, 232, 0.4);
+}
+
+.server-name-input {
+    -fx-padding: 5px;
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+}
+
+.connect-button {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-color: #99E1D9;
+    -fx-background-radius: 15px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+}
+
+.connect-button:hover {
+    -fx-background-color: rgba(153, 225, 217, 0.5);
+}
+
+.connect-window {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 0);
+    -fx-background-radius: 15px;
+}
+
+.close-button {
+    -fx-background-color: none;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.close-button:hover {
+    -fx-background-radius: 50%;
+    -fx-background-color: rgba(232, 232, 232);
+}
+
+.config-message {
+    -fx-font-size: 14px;
+}
