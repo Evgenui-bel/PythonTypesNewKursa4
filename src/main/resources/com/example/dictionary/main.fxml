@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0"
+<BorderPane id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0"
             prefWidth="812.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.client.scene.MainScene">
     <top>
@@ -22,27 +22,27 @@
               BorderPane.alignment="CENTER_LEFT">
             <children>
                 <VBox maxWidth="-Infinity" prefWidth="700.0">
-                    <children>
-                        <Label maxWidth="-Infinity" onMouseClicked="#loadTerms" text="Python types ">
-                            <font>
-                                <Font size="24.0"/>
-                            </font>
-                        </Label>
-                    </children>
+                        <children>
+                            <Label maxWidth="-Infinity" onMouseClicked="#loadTerms" text="Python types ">
+                                <font>
+                                    <Font size="30.0"/>
+                                </font>
+                            </Label>
+                        </children>
                 </VBox>
             </children>
         </VBox>
     </top>
     <center>
-        <BorderPane style="-fx-border-color: none;">
+        <BorderPane style="-fx-border-color: #1e1e1e; -fx-background-color: #1e1e1e;">
             <center>
-                <ScrollPane fx:id="scrollPane" fitToWidth="true" style="-fx-background-color: none;">
+                <ScrollPane fx:id="scrollPane" fitToWidth="true" style="-fx-background-color: #1e1e1e;">
                     <content>
-                        <BorderPane style="-fx-border-color: none;">
+                        <BorderPane style="-fx-border-color: none; -fx-background-color: #1e1e1e;">
                             <center>
                                 <VBox fx:id="termCards" alignment="TOP_CENTER" maxHeight="1.7976931348623157E308"
                                       maxWidth="1.7976931348623157E308" spacing="30.0"
-                                      style="-fx-background-color: none;">
+                                      style="-fx-background-color: #1e1e1e;">
                                     <children>
                                         <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0"
                                               prefWidth="700.0" styleClass="term-card" stylesheets="@css/style.css">
@@ -145,10 +145,10 @@
                 </ScrollPane>
             </center>
             <top>
-                <BorderPane maxWidth="-Infinity" prefWidth="700.0" style="-fx-border-color: none;"
+                <BorderPane maxWidth="-Infinity" prefWidth="700.0" style="-fx-border-color: none; -fx-background-color: #1e1e1e;"
                             BorderPane.alignment="CENTER">
                     <right>
-                        <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+                        <HBox style="-fx-background-color: #1e1e1e;" alignment="CENTER" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
                             <children>
                                 <HBox styleClass="search-bar">
                                     <children>
@@ -175,10 +175,10 @@
                         </HBox>
                     </right>
                     <left>
-                        <MenuButton mnemonicParsing="false" text="Sort terms" BorderPane.alignment="CENTER">
+                        <MenuButton mnemonicParsing="false" text="Сортировка" BorderPane.alignment="CENTER">
                             <items>
-                                <MenuItem mnemonicParsing="false" onAction="#sortAscending" text="Ascending"/>
-                                <MenuItem mnemonicParsing="false" onAction="#sortDescending" text="Descanding"/>
+                                <MenuItem style="-fx-background-color: #c5c5c6;" mnemonicParsing="false" onAction="#sortAscending" text="Возраст."/>
+                                <MenuItem style="-fx-background-color: #c5c5c6;" mnemonicParsing="false" onAction="#sortDescending" text="Убыв."/>
                             </items>
                         </MenuButton>
                     </left>
